@@ -42,13 +42,13 @@
     height: 20px;
     background: linear-gradient(180deg, #EE5948 0%, #F2A159 100%);
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: -4px;
 }
 
 .empresa-ano{
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: -100px;
     color: #525252;
     font-size: .875rem;
