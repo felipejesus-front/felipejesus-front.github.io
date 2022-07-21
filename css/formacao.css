@@ -5,12 +5,24 @@
 
 .formacao-container{
     max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;padding: 20px;
+    padding: 120px 20px;
+    margin: 0 auto;
     border-radius: 4px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 140px
+    gap: 140px;
+    position: relative;
+}
+
+.formacao-container::after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url(../img/detalhe.svg) no-repeat center ;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
 }
 
 .formacao-texto span{
@@ -105,4 +117,75 @@
 
 .idiomas-detalhe h3::before{
     background: url("../img/ingles.svg") no-repeat center center;
+}
+
+.formacao-extra li{
+    font-size: 1.125rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.formacao-extra span{
+    color: #8f8f8f;
+}
+
+
+.cursos-detalhe li{
+    display: flex; 
+    justify-content: space-between;   
+}
+
+.idiomas-detalhe li {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-bottom: 20px;
+
+}
+
+/* estilização de niveis de ingles */
+
+.nivel-container{
+    background: #F2A159;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.nivel-speaking{
+    background:#EE5948;
+    width: 40%;
+    border-radius: 4px 0 0 4px;
+}
+
+.nivel-reading{
+    background:#EE5948;
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+}
+
+.nivel-listening{
+    background:#EE5948;
+    width: 60%;
+    border-radius: 4px 0 0 4px;
+}
+
+@media (max-width: 800px) {
+    .formacao-container{
+        grid-template-columns: 1fr;
+        padding: 60px 20px;
+        gap: 40px;
+    }
+    .formacao .subtitulo{
+        color: #fff;
+    }
+    .formacao-texto{
+        font-size: 1.25rem;
+    }
+    .formacao-extra h3::before{
+        position: static;
+        margin-bottom: 10px;
+    }
+    .nivel-container{
+        width: 200px;
+    }
 }
