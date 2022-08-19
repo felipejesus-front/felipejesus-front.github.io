@@ -5,6 +5,10 @@ body{
     overflow-x: hidden;
 }
 
+body main{
+    overflow-x: hidden;
+}
+
 h1, h2, h3, p{
     margin: 0px;
 }
@@ -30,6 +34,9 @@ img{
 
 
 @media (max-width: 800px) {
+    body{
+        overflow-x: auto;
+    }
     .subtitulo{
         font-size: 3rem;
         text-transform: capitalize;

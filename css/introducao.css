@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 140px;
     align-items: center;
+
 }
 
 .introducao::after{
@@ -15,8 +16,8 @@
     height:522px;
     background: url("../img/marca2.svg");
     position: absolute;
-    right: -100px;
-    top: 350px;
+    right: -90px;
+    top: 200px;
     opacity: .2;
     z-index: -1;
 }
@@ -62,7 +63,7 @@
         font-size: 3rem;
     }
     .introducao::after{
-        background: none;
+        display: none;
     }
 }
 
