@@ -8,6 +8,19 @@
     align-items: center;
 }
 
+.introducao::after{
+    content: "";
+    display: block;
+    width:522px;
+    height:522px;
+    background: url("../img/marca2.svg");
+    position: absolute;
+    right: -100px;
+    top: 350px;
+    opacity: .2;
+    z-index: -1;
+}
+
 .introducao h1{
     font-size: 4rem;
     line-height: 1.1;
@@ -38,9 +51,18 @@
     margin-left: 3px 
 }
 
+@media (max-width: 1250px) {
+    .introducao::after{
+        background: url('../img/marca2-s.svg') no-repeat center;
+    }
+}
+
 @media (max-width: 1000px) {
     .introducao h1{
         font-size: 3rem;
+    }
+    .introducao::after{
+        background: none;
     }
 }
 
