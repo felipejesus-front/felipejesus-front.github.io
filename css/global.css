@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #141414;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, p{
