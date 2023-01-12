@@ -35,6 +35,15 @@
     position: relative;
 }
 
+.empresa-link{
+    
+    color: #141414;
+}
+
+.empresa-link:hover{
+    color: #525252;    
+}
+
 .empresa::before{
     content: '';
     display: block;
