@@ -1,0 +1,70 @@
+{
+	"header": {
+		"experiencia": "Experiência",
+		"formacao": "Formação",
+		"contato": "Contato"
+	},
+	"main": {
+		"title": "Desenvolvedor FrontEnd & UI/UX Design",
+		"location": "Localizado no Rio de Janeiro"
+	},
+	"experiencia": {
+		"title": "Experiência",
+		"description": "Apaixonado por front-end gosto de fazer pequenos projetos com HTML, CSS e JavaScript. Adoro criar coisas novas e me mantenho por dentro do UX e UI Design.",
+		"empresa1": {
+			"ano": "2023-2025",
+			"titulo": "Desenvolvedor FrontEnd",
+			"texto": "Desenvolvimento e manutenção app mobile com React Native e Expo. Finalização e desenvolvimento de novas features do dashboard da empresa com React.js e redux"
+		},
+		"empresa2": {
+			"ano": "2022",
+			"titulo": "Projeto Pessoal",
+			"texto": "AssisteAê é uma plataforma pra você achar algo pra assistir e onde assistir. Este é um projeto pessoal que fiz pra aplicar alguns conceitos de React js"
+		},
+		"empresa3": {
+			"ano": "2020-2022",
+			"titulo": "Assistente de Suporte Técnico",
+			"texto": "Participei do Atendimento ao cliente no suporte técnico fazendo alguns desenvolvimentos pontuais"
+		},
+		"empresa4": {
+			"ano": "2019-2020",
+			"titulo": "Projeto de conclusão",
+			"texto": "Este foi um projeto voltado para o agronegócio em nível nacional. Nele participei ativamente desde a prototipagem, até a codificação de todas as telas."
+		}
+	},
+	"formacao": {
+		"title": "Formação",
+		"texto": "Iniciei na área de programação através da Resilia Educação, porém estou sempre me aprimorando através de cursos intensivos online com foco em Front-end e UI/UX Design.",
+		"cursos": {
+			"curso1": {
+				"tipo": "Tecnologo",
+				"nome": "Desenv. de Sistemas Web",
+				"instituicao": "Resilia Educação"
+			},
+			"curso2": {
+				"tipo": "Curso",
+				"nome": "FrontEnd Completo",
+				"instituicao": "Origamid"
+			},
+			"curso3": {
+				"tipo": "Curso",
+				"nome": "Java Script + React",
+				"instituicao": "Origamid"
+			}
+		},
+		"extra": {
+			"cursosIntensivos": "Cursos intensivos",
+			"idiomas": "Inglês",
+			"speaking": "Speaking",
+			"reading": "Reading",
+			"listening": "Listening"
+		}
+	},
+	"footer": {
+		"contact": "Estou disponível para novos projetos. Entre em contato e marcamos uma conversa.",
+		"email": "felipejesus30@gmail.com",
+		"phone": "+55 21 972252710",
+		"linkedin": "felipejesus30",
+		"copy": "Felipe de Jesus. Alguns direitos reservados"
+	}
+}
