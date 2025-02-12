@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,11 +27,23 @@
 
 			<nav>
 				<ul class="header-menu">
-					<li><a href="#experiencia">Experiência</a></li>
-					<li><a href="#formacao">Formação</a></li>
-					<li><a href="#contato">Contato</a></li>
+					<li>
+						<a href="#experiencia" data-translate="header.experiencia"
+							>Experiência</a
+						>
+					</li>
+					<li>
+						<a href="#formacao" data-translate="header.formacao">Formação</a>
+					</li>
+					<li>
+						<a href="#contato" data-translate="header.contato">Contato</a>
+					</li>
 				</ul>
 			</nav>
+			<select id="language-selector">
+				<option value="pt">Português</option>
+				<option value="en">English</option>
+			</select>
 		</header>
 
 		<main class="introducao">
@@ -42,11 +54,11 @@
 				height="520"
 			/>
 			<div>
-				<h1>
+				<h1 data-translate="main.title">
 					Desenvolvedor <br />FrontEnd &<br />
 					UI/UX Design
 				</h1>
-				<p>Localizado no Rio de Janeiro</p>
+				<p data-translate="main.location">Localizado no Rio de Janeiro</p>
 				<img
 					class="praia"
 					src="img/Praia.svg"
@@ -58,9 +70,9 @@
 		</main>
 
 		<section class="experiencia" id="experiencia" aria-label="experiencia">
-			<h2 class="subtitulo">Experiência</h2>
+			<h2 class="subtitulo" data-translate="experiencia.title">Experiência</h2>
 			<div>
-				<p class="experiencia-texto">
+				<p class="experiencia-texto" data-translate="experiencia.description">
 					Apaixonado por front-end gosto de fazer pequenos projetos com
 					<span>HTML</span>, <span>CSS</span> e <span>JavaScript</span>. Adoro
 					criar coisas novas e me mantenho por dentro do <span>UX</span> e
@@ -68,19 +80,17 @@
 				</p>
 
 				<div class="empresa">
-					<span class="empresa-ano">2023-2025</span>
-					<h3 class="empresa-titulo">
-						<a
-							href="https://www.enviabybus.com.br/"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="empresa-link"
-						>
-							EnviaBybus
-						</a>
+					<span class="empresa-ano" data-translate="experiencia.empresa1.ano"
+						>2023-2025</span
+					>
+					<h3
+						class="empresa-titulo"
+						data-translate="experiencia.empresa1.titulo"
+					>
+						Desenvolvedor FrontEnd
 					</h3>
 					<span class="empresa-titulo">Desenvolvedor FrontEnd</span>
-					<p class="empresa-texto">
+					<p class="empresa-texto" data-translate="experiencia.empresa1.texto">
 						Desenvolvimento e manutenção app mobile com React Native e
 						Expo.Finalização e desenvolvimento de novas features do dashboard da
 						empresa com React.js e redux
@@ -96,20 +106,18 @@
 				</div>
 
 				<div class="empresa">
-					<span class="empresa-ano">2022</span>
-					<h3 class="empresa-titulo">
-						<a
-							href="https://felipejesus-front.github.io/assisteAe/"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="empresa-link"
-						>
-							AssisteAê
-						</a>
+					<span class="empresa-ano" data-translate="experiencia.empresa2.ano"
+						>2022</span
+					>
+					<h3
+						class="empresa-titulo"
+						data-translate="experiencia.empresa2.titulo"
+					>
+						Projeto Pessoal
 					</h3>
 					<span class="empresa-titulo">Projeto Pessoal</span>
-					<p class="empresa-texto">
-						AssisteAê é uma platadorma pra você achar algo pra assistir e onde
+					<p class="empresa-texto" data-translate="experiencia.empresa2.texto">
+						AssisteAê é uma plataforma pra você achar algo pra assistir e onde
 						assistir. Este é um projeto pessoal que fiz pra aplicar alguns
 						conceitos de React js
 					</p>
@@ -124,10 +132,21 @@
 				</div>
 
 				<div class="empresa">
-					<span class="empresa-ano">2020-2022</span>
-					<h3 class="empresa-titulo">Bllog</h3>
-					<span class="empresa-titulo">Assistente de Suporte Técnico</span>
-					<p class="empresa-texto">
+					<span class="empresa-ano" data-translate="experiencia.empresa3.ano"
+						>2020-2022</span
+					>
+					<h3
+						class="empresa-titulo"
+						data-translate="experiencia.empresa3.titulo"
+					>
+						Bllog
+					</h3>
+					<span
+						class="empresa-titulo"
+						data-translate="experiencia.empresa3.titulo"
+						>Assistente de Suporte Técnico</span
+					>
+					<p class="empresa-texto" data-translate="experiencia.empresa3.texto">
 						Participei do Atendimento ao cliente no suporte técnico fazendo
 						alguns desenvolvimentos pontuais
 					</p>
@@ -140,11 +159,22 @@
 				</div>
 
 				<div class="empresa">
-					<span class="empresa-ano">2019-2020</span>
-					<h3 class="empresa-titulo">Agrotech - Resilia</h3>
-					<span class="empresa-titulo">Projeto de conclusão</span>
-					<p class="empresa-texto">
-						Este foi um projeto voltado para o agronegócio em nivel nacional.
+					<span class="empresa-ano" data-translate="experiencia.empresa4.ano"
+						>2019-2020</span
+					>
+					<h3
+						class="empresa-titulo"
+						data-translate="experiencia.empresa4.titulo"
+					>
+						Agrotech - Resilia
+					</h3>
+					<span
+						class="empresa-titulo"
+						data-translate="experiencia.empresa4.titulo"
+						>Projeto de conclusão</span
+					>
+					<p class="empresa-texto" data-translate="experiencia.empresa4.texto">
+						Este foi um projeto voltado para o agronegócio em nível nacional.
 						Nele participei ativamente desde a prototipagem, até a codificação
 						de todas as telas.
 					</p>
@@ -161,9 +191,9 @@
 
 		<section class="formacao" id="formacao">
 			<div class="formacao-container">
-				<h2 class="subtitulo">Forma<br />ção</h2>
+				<h2 class="subtitulo" data-translate="formacao.title">Formação</h2>
 				<div>
-					<p class="formacao-texto">
+					<p class="formacao-texto" data-translate="formacao.texto">
 						Iniciei na área de programação através da
 						<span>Resilia Educação</span>, porém estou sempre me aprimorando
 						através de cursos intensivos online com foco em
@@ -172,25 +202,66 @@
 
 					<ul class="curso-lista">
 						<li class="curso">
-							<span class="curso-tipo">Tecnologo</span>
-							<h3 class="curso-nome">Desenv. de Sistemas Web</h3>
-							<span class="curso-instituicao">Resilia Educação</span>
+							<span
+								class="curso-tipo"
+								data-translate="formacao.cursos.curso1.tipo"
+								>Tecnologo</span
+							>
+							<h3
+								class="curso-nome"
+								data-translate="formacao.cursos.curso1.nome"
+							>
+								Desenv. de Sistemas Web
+							</h3>
+							<span
+								class="curso-instituicao"
+								data-translate="formacao.cursos.curso1.instituicao"
+								>Resilia Educação</span
+							>
 						</li>
 						<li class="curso">
-							<span class="curso-tipo">Curso</span>
-							<h3 class="curso-nome">FrontEnd Completo</h3>
-							<span class="curso-instituicao">Origamid</span>
+							<span
+								class="curso-tipo"
+								data-translate="formacao.cursos.curso2.tipo"
+								>Curso</span
+							>
+							<h3
+								class="curso-nome"
+								data-translate="formacao.cursos.curso2.nome"
+							>
+								FrontEnd Completo
+							</h3>
+							<span
+								class="curso-instituicao"
+								data-translate="formacao.cursos.curso2.instituicao"
+								>Origamid</span
+							>
 						</li>
 						<li class="curso">
-							<span class="curso-tipo">Curso</span>
-							<h3 class="curso-nome">Java Script + React</h3>
-							<span class="curso-instituicao">Origamid</span>
+							<span
+								class="curso-tipo"
+								data-translate="formacao.cursos.curso3.tipo"
+								>Curso</span
+							>
+							<h3
+								class="curso-nome"
+								data-translate="formacao.cursos.curso3.nome"
+							>
+								Java Script + React
+							</h3>
+							<span
+								class="curso-instituicao"
+								data-translate="formacao.cursos.curso3.instituicao"
+								>Origamid</span
+							>
 						</li>
 					</ul>
 
 					<div class="formacao-extra">
 						<div class="cursos-detalhe">
-							<h3>Cursos intensivos</h3>
+							<h3 data-translate="formacao.extra.cursosIntensivos">
+								Cursos intensivos
+							</h3>
 							<ul>
 								<li>UI/UX Design <span>80h</span></li>
 								<li>Javascript Completo (ES6) <span>77h</span></li>
@@ -200,22 +271,24 @@
 							</ul>
 						</div>
 						<div class="idiomas-detalhe">
-							<h3>Inglês</h3>
+							<h3 data-translate="formacao.extra.idiomas">Inglês</h3>
 							<ul>
 								<li>
-									Speaking
+									<span data-translate="formacao.extra.speaking">Speaking</span>
 									<div class="nivel-container">
 										<div class="nivel-speaking"> </div>
 									</div>
 								</li>
 								<li>
-									Reading
+									<span data-translate="formacao.extra.reading">Reading</span>
 									<div class="nivel-container">
 										<div class="nivel-reading"> </div>
 									</div>
 								</li>
 								<li>
-									Listening
+									<span data-translate="formacao.extra.listening"
+										>Listening</span
+									>
 									<div class="nivel-container">
 										<div class="nivel-listening"> </div>
 									</div>
@@ -228,21 +301,27 @@
 		</section>
 		<footer class="footer" id="contato">
 			<div class="footer-container">
-				<p class="footer-texto">
+				<p class="footer-texto" data-translate="footer.contact">
 					Estou disponível para novos projetos. Entre em contato e marcamos uma
 					conversa.
 				</p>
 				<ul class="footer-contato">
-					<li>felipejesus30@gmail.com</li>
-					<li>+55 21 972252710</li>
+					<li data-translate="footer.email">felipejesus30@gmail.com</li>
+					<li data-translate="footer.phone">+55 21 972252710</li>
 					<li>
-						<a href="https://www.linkedin.com/in/felipejesus30/"
+						<a
+							href="https://www.linkedin.com/in/felipejesus30/"
+							data-translate="footer.linkedin"
 							>felipejesus30</a
 						>
 					</li>
 				</ul>
-				<p class="footer-copy">Felipe de Jesus. Alguns direitos reservados</p>
+				<p class="footer-copy" data-translate="footer.copy">
+					Felipe de Jesus. Alguns direitos reservados
+				</p>
 			</div>
 		</footer>
+
+		<script src="js/translate.js"></script>
 	</body>
 </html>
