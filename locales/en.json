@@ -54,6 +54,11 @@
 		},
 		"extra": {
 			"cursosIntensivos": "Intensive courses",
+			"curso1": "UI/UX Design",
+			"curso2": "Complete JavaScript (ES6)",
+			"curso3": "HTML and CSS",
+			"curso4": "Bootstrap",
+			"curso5": "Complete React",
 			"idiomas": "English",
 			"speaking": "Speaking",
 			"reading": "Reading",

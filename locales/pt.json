@@ -48,12 +48,17 @@
 			},
 			"curso3": {
 				"tipo": "Curso",
-				"nome": "Java Script + React",
+				"nome": "JavaScript + React",
 				"instituicao": "Origamid"
 			}
 		},
 		"extra": {
 			"cursosIntensivos": "Cursos intensivos",
+			"curso1": "UI/UX Design",
+			"curso2": "Javascript Completo (ES6)",
+			"curso3": "HTML e CSS",
+			"curso4": "Bootstrap",
+			"curso5": "React Completo",
 			"idiomas": "Inglês",
 			"speaking": "Speaking",
 			"reading": "Reading",
